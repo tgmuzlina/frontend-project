@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GUI Prototype — Tempahan Buku</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">Tempahan Buku — GUI Prototype</header>
+
+  <main class="wrap">
+    <section class="card">
+      <h3>Senarai Tempahan</h3>
+      <table id="tbl">
+        <thead><tr><th>ID</th><th>Pelanggan</th><th>Jumlah (RM)</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h3>Borang Tempahan (Dummy)</h3>
+      <form id="frm">
+        <input name="name" placeholder="Nama pelanggan" required>
+        <input name="amount" type="number" step="0.01" placeholder="Jumlah" required>
+        <button type="submit">Tambah</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
